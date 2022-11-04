@@ -7,6 +7,13 @@ version = 9.0.0
 modtime = 1658549779.352676100
 
 [views/bigbasket_product_management]
+access = read : [ * ], write : [ admin ]
+export = none
 owner = rahuman
-version = 9.0.0
-modtime = 1658550284.276657900
+version = 9.0.1
+modtime = 1667560519.764555400
+
+[indexes/bbkt_idx]
+owner = rahuman
+version = 9.0.1
+modtime = 1667559825.314587600
